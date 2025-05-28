@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #dce6e1; /* Testo principale */
+  background-image: url('wallst.webp'); /* Inserisci il nome o il link dell'immagine */
+  background-size: cover; /* L'immagine copre tutta la pagina */
+  background-position: center; /* Centra l'immagine */
+  background-repeat: no-repeat; /* Evita ripetizioni */
+}
+
+header {
+  background-image: url('logo.jpeg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: 20%;
+  padding: 37px;
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', 'Impact', sans-serif;
+  border-bottom: 5px solid #0f3257;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding-top: 19px;
+  background-color: rgba(91, 159, 185, 0.8); /* Trasparente con sfumatura */
+  box-shadow: 0px 4px 10px rgba(138, 43, 226, 0.1); /* Ombreggiatura */
+}
+
+nav a {
+  overflow: auto;
+  background-color: rgba(91, 159, 185, 0.8);
+  padding: 12px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: #cec000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+  
+}
+
+nav a:hover {
+  background-color: #2C3D4C; /* Hover */
+}
+
+article {
+  float: left;
+  width: 60%;
+  padding: 20px;
+  background-color: rgba(91, 159, 185, 0.8); /* Trasparente con sfumatura */
+  box-shadow: 0px 4px 10px rgba(218, 12, 12, 0.1); /* Ombreggiatura */
+  
+}
+
+
+article h2 {
+  color: #555a5a;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Bebas Neue', 'Impact', sans-serif;
+}
+
+article h3 {
+  color: #cec000;
+  font-size: 35px;
+  margin: 10px 0;
+  font-family: 'Bebas Neue', 'Impact', sans-serif;
+}
+
+article p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+aside {
+  background-color: rgba(91, 159, 185, 0.8); /* Trasparente con sfumatura */
+  box-shadow: 0px 4px 10px rgba(218, 12, 12, 0.1); /* Ombreggiatura */
+  float: left;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+aside h2 {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-family: 'Bebas Neue', 'Impact', sans-serif;
+}
+
+aside p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #131A1E; /* Footer */
+  text-align: center;
+  padding: 20px;
+  color: #829AB3; /* Testo */
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+@media only screen and (max-width: 900px) {
+  nav, article, aside {
+    width: 100%;
+  }
+  
+  header h1 {
+    font-size: 35px;
+  }
+  
+  header img{
+    width: 150px;
+    border: 15px solid #005f86 ;
+
+  }
+  article {
+    padding: 15px;
+  }
+
+#img{
+	width:10%;
+}
+

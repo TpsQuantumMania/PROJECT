@@ -1,50 +1,126 @@
-body {
-    background-color: lightblue;
-    font-family: Arial;
-  }
-  
-  header {
-    background-color: #3f77e8;
-    color: #ffffff;
-    text-align: left;
-    padding: 20px;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  header img {
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-  }
-  
-  nav {
-    background-color: yellow;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  nav a {
-    margin: 10px;
-    color: red;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    background-color: white;
-    border: 2px solid black;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    color: green;
-  }
-  
-  footer {
-    background-color: purple;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    line-height: 1.8;
+    padding: 0;
+}
+
+header {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
     color: white;
+    position: relative;
+}
+
+.overlay {
+    background-color: #5dacd4;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 10px;
-  }
+}
+
+.overlay h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.overlay h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+.logo {
+    margin-top: 10px;
+    color: #a2d4f5;
+}
+
+.buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.menu-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #ffffff;
+    color: #5dacd4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+    background-color: #cceaf9;
+}
+
+main {
+    padding: 40px 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #5dacd4;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+.lab-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+tfoot th {
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+p {
+    margin-bottom: 20px;
+}

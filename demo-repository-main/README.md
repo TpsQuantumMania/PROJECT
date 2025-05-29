@@ -1,5 +1,5 @@
 # Progetto TPS x 29 Mag. 2025
-Progetto finale su HTML gruppo ALIAJ POLI LOCHE JERAL
+Progetto finale su HTML gruppo ALIAJ JERAL
 
 # Consegna
 Realizzare un sito web hostato su github e raggiungibile con un nome di dominio (da acquistare su namacheap.com),
